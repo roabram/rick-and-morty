@@ -1,8 +1,37 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+:root {
+  /* colors */
+  --primary-color: #06aed5;
+  --secondary-color: #fff1d0;
+  --text-color: #f0c808;
+  --background-color: #06aed5;
+  --border-color: #dd1c1a;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+
+.main {
+  background-color: var(--border-color);
+}
+
+.hero {
+  background-color: var(--background-color);
+}
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.results {
+  background-color: var(--secondary-color);
 }
