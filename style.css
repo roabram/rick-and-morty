@@ -21,17 +21,30 @@
 }
 
 .main {
-  background-color: var(--border-color);
-}
-
-.hero {
-  background-color: var(--background-color);
+  display: grid;
+  height: 100vh;
+  background-color: var(--secondary-color);
+  animation-name: dynamicbackground;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 .footer {
-  background-color: var(--background-color);
+  background-color: var(--secondary-color);
 }
 
 .results {
   background-color: var(--secondary-color);
+}
+
+@keyframes dynamicbackground {
+  from {
+    color: var(--text-color);
+  }
+  50% {
+    color: black;
+  }
+  to {
+    color: var(--text-color);
+  }
 }
