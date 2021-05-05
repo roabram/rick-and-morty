@@ -2,7 +2,7 @@ import './character.css';
 import { createElement } from '../utils/elements';
 
 export function createCharacterElement({
-  imgSrc,
+  image,
   name,
   status,
   species,
@@ -11,7 +11,7 @@ export function createCharacterElement({
   return createElement('div', {
     className: 'character-card',
     children: [
-      createElement('img', { src: imgSrc }),
+      createElement('img', { src: image }),
       createElement('div', {
         className: 'character-card__info',
         children: [
