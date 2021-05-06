@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
-.character-card {
-  background: var(--background-color);
+:root {
+  /* colors */
+  --primary-color: #06aed5;
+  --secondary-color: #fff1d0;
+  --text-color: #f0c808;
+  --background-color: #06aed5;
+  --border-color: #dd1c1a;
+}
+
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--secondary-color);
 }

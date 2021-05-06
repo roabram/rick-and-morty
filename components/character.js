@@ -14,6 +14,7 @@ export function createCharacterElement({
     children: [
       createElement('img', { src: image }),
       createElement('a', {
+        className: 'character-anker',
         href: `/details.html?id=${id}`,
         innerText: 'Character Details',
       }),
