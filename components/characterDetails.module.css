@@ -1,0 +1,10 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.characters-card__detail {
+  background: lightblue;
+  display: flex;
+}
